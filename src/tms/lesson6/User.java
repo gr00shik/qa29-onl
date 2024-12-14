@@ -17,9 +17,7 @@ public class User {
     }
 
     public User(String uName, int uAge, boolean uIsMan, String uNickName) {
-        name = uName;
-        age = uAge;
-        isMan = uIsMan;
+        this(uName, uAge, uIsMan);
         nickname = uNickName;
     }
 
